@@ -11,6 +11,8 @@
 		FC68D56925CB20F700214E0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68D56825CB20F700214E0F /* ContentView.swift */; };
 		FC68D56B25CB20F800214E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC68D56A25CB20F800214E0F /* Assets.xcassets */; };
 		FC68D56E25CB20F800214E0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC68D56D25CB20F800214E0F /* Preview Assets.xcassets */; };
+		FC68D57925CB2F8F00214E0F /* Kotlin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68D57825CB2F8F00214E0F /* Kotlin.swift */; };
+		FC68D58525CB30B300214E0F /* Porygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68D58425CB30B300214E0F /* Porygon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FC68D56A25CB20F800214E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC68D56D25CB20F800214E0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC68D56F25CB20F800214E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC68D57825CB2F8F00214E0F /* Kotlin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kotlin.swift; sourceTree = "<group>"; };
+		FC68D58425CB30B300214E0F /* Porygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porygon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		FC68D56525CB20F700214E0F /* SwiftUIStudies */ = {
 			isa = PBXGroup;
 			children = (
+				FC68D57B25CB307F00214E0F /* Views */,
 				FC68D56625CB20F700214E0F /* SwiftUIStudiesApp.swift */,
 				FC68D56825CB20F700214E0F /* ContentView.swift */,
 				FC68D56A25CB20F800214E0F /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				FC68D56D25CB20F800214E0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC68D57B25CB307F00214E0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC68D57825CB2F8F00214E0F /* Kotlin.swift */,
+				FC68D58425CB30B300214E0F /* Porygon.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC68D58525CB30B300214E0F /* Porygon.swift in Sources */,
 				FC68D56925CB20F700214E0F /* ContentView.swift in Sources */,
 				FC68D56725CB20F700214E0F /* SwiftUIStudiesApp.swift in Sources */,
+				FC68D57925CB2F8F00214E0F /* Kotlin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
